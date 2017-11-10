@@ -1,6 +1,1 @@
-# cimiwijzer
-# DeelA
-# DeelA
-# DeelA
-# DeelA
-# DeelA
+#OPEN MIJ NIET, IK BEN EEN FOUTJE
