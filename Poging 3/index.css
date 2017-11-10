@@ -1,0 +1,116 @@
+.axis .domain {
+  display: none;
+}
+
+html{
+  font-family: Futura;
+}
+
+rect:hover {
+  fill: orange;
+}
+
+#tooltip {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: Futura;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.svg {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.article2 {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.article2 p {
+  margin: 0 2em;
+}
+
+b{
+  width: 100%;
+  text-align: center;
+}
+
+.titel {
+  display: block;
+  margin: 0 auto
+}
+
+h3 {
+  text-align: center;
+  color: white;
+}
+
+section button {
+  border: none;
+  background-color: white;
+  margin: 0 1em;
+}
+
+section button:first-child {
+  border-bottom: 2px solid purple;
+}
+
+section button:nth-child(2) {
+  border-bottom: 2px solid indianred;
+}
+
+section button:nth-child(3) {
+  border-bottom: 2px solid darksalmon;
+}
+
+section button:nth-child(4) {
+  border-bottom: 2px solid gold;
+}
+
+section button:nth-child(5) {
+  border-bottom: 2px solid lightgreen;
+}
+
+section button:nth-child(6) {
+  border-bottom: 2px solid aqua;
+}
+
+.twee {
+  background-color: lightgrey;
+  padding: 1em 0;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
